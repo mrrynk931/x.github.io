@@ -50,7 +50,7 @@ $mail = '【🅽🆃🅼】mittal'.random_strings(6).'';
 //////////=========[Start Command]=========//////////
 
 
-if ((strpos($message, "/info") === 0)||(strpos($message, "!start") === 0)||(strpos($message, "!id") === 0)||(strpos($message, "!info") === 0)||(strpos($message, "/id") === 0)||(strpos($message, "/me") === 0)||(strpos($message, "/start") === 0)){
+if ((strpos($message, "/info") === 0)||(strpos($message, "!run") === 0)||(strpos($message, "!id") === 0)||(strpos($message, "!info") === 0)||(strpos($message, "/id") === 0)||(strpos($message, "/me") === 0)||(strpos($message, "/start") === 0)){
         sendMessage($chatId, "<b>%0A╔═══════════════════%0A╟➣𝐓𝐞𝐥𝐞𝐠𝐫𝐚𝐦 𝐈𝐃 ➣</b> <code>$userId</code>%0A<b>╟═══════════════════%0A╟➣𝐆𝐫𝐨𝐮𝐩 𝐈𝐃 ➣ </b><code>$chatId</code>%0A<b>╟═══════════════════%0A╟➣ 𝐔𝐬𝐞𝐫𝐧𝐚𝐦𝐞 ➣</b> @$username%0A<b>╟═══════════════════%0A╟➣𝐓𝐨 𝐊𝐧𝐨𝐰 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 ➣ /cmds%0A╚═══════════════════</b>", $message_id);
         }
         elseif ((strpos($message, "/chk") === 0)||(strpos($message, "!chk") === 0)||(strpos($message, "!ch") === 0)||(strpos($message, "/ch") === 0)||(strpos($message, ".ch") === 0)||(strpos($message, "!usd") === 0)||(strpos($message, "/usd") === 0)||(strpos($message, ".usd") === 0)||(strpos($message, ".chk") === 0)){
